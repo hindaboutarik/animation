@@ -1,0 +1,133 @@
+#container {
+
+    height: 720px;  
+    background:#d2c7bc;
+    width: 100%;
+  }
+  #container #fdiv{
+    width: 60%;
+    height: 700px;
+  }
+  .bar1 {
+    position: absolute;
+    width: 17%;
+    top: 344px;
+    z-index: 2;
+    left: 117px;
+    /* height: 224px; */
+    -webkit-animation: spin 0.5s forwards;
+    -moz-animation: spin 0.5s;
+    animation: spin 1s;
+    animation-delay: 2s;
+    transform: rotate(
+326deg
+);
+
+   }
+   @keyframes spin { 0% {opacity:0;transform: rotate(326deg)} 100% {opacity:1;transform: rotate(360deg); } }
+   @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  .bar2{
+    z-index: 2;
+    position: absolute;
+    width: 16%;
+    left: 200px;
+    top: 333px;
+    -webkit-animation: spin 0.5s;
+    -moz-animation: spin 0.5s;
+    transform: rotate(
+331deg
+);
+    animation: spin 1s;
+    animation-delay: 3s;
+    
+  
+  }
+
+.bar3{
+  z-index: 1;
+  width: 14%;
+  position: absolute;
+  top: 330px;
+  left: 288Px;
+  -webkit-animation: spin 0.5s;
+  -moz-animation: spin 0.5s;
+  transform: rotate(
+338deg
+);
+  animation: spin 1s;
+  animation-delay: 4s;
+}
+  .bar4{
+    position: absolute;
+    width: 10%;
+    z-index: 2;
+    left: 382px;
+    top: 334px;
+    transform: rotate(
+344deg
+);
+    -webkit-animation: spin 0.5s;
+    -moz-animation: spin 0.5s;
+    animation: spin 1s;
+    animation-delay: 5s;
+  }
+  .bar5{
+    position: absolute;
+    z-index: 2;
+    transform: rotate(
+350deg
+);
+    width: 8.5%;
+    top: 337px;
+    left: 466px;
+    -webkit-animation: spin 0.5s;
+    -moz-animation: spin 0.5s;
+    animation: spin 1s;
+    animation-delay: 6s;
+  }
+
+   .bar6 {
+    position: absolute;
+     width: 27%;
+     top: 345px;
+     z-index: 2;
+     left: 73px;
+     height: 260px;
+     -webkit-animation:spin 0.5s  ;
+     -moz-animation:spin 0.5s  ;
+     transform: rotate(360deg);
+     animation:spin 1s;
+     animation-delay: 2s;
+     
+   
+   }
+   @keyframes spin { 0% {transform: rotate(326deg)} 100% {transform: rotate(360deg); } }
+   @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  .bar7{
+    position: absolute;
+    width: 5.25%;
+    left: 800Px;
+    z-index: 1;
+    top: 330px;
+  }
+  .bar8{
+    position: absolute;
+    width: 5.25%;
+    left: 888px;
+    top: 328px;
+    z-index: 1;
+  }
+  .bar9{
+    position: absolute;
+    width: 6%;
+    left: 978px;
+    top: 326px;
+    z-index: 1;
+  }
+  .bar10{
+    position: absolute;
+    width: 7%;
+    left: 1076px;
+    top: 323px;
+    z-index: 1;
+  }
